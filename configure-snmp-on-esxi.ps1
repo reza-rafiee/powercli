@@ -1,4 +1,4 @@
-c<#
+<#
     configure-snmp-on-esxi.ps1
 	
 	Configure SNMP settings on multiple ESXi hosts using a reference host settings
@@ -12,7 +12,7 @@ c<#
 	$targethosts	: Target ESXi host cluster (to apply on single ESXi host refer to line30) 
 	$refesxhost		: Reference ESXi host
 			
-	#>
+#>
 
 $VC="vCenter Server Name"
 $targethosts="Target cluster name"

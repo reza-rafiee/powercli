@@ -1,4 +1,4 @@
-<#
+c<#
     configure-snmp-on-esxi.ps1
 	
 	Configure SNMP settings on multiple ESXi hosts using a reference host settings
@@ -16,7 +16,7 @@
 
 $VC="vCenter Server Name"
 $targethosts="Target cluster name"
-$refesxhost = "mdrl9esx004.telecom.tcnz.net"
+$refesxhost = "Reference ESXi host name"
 
 
 
